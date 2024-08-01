@@ -1,0 +1,7 @@
+@use '../utilities/btn-schema' as vars;
+
+.small-button {
+    font-size: vars.$font-size;
+    color: vars.$btn-color;
+    background-color: vars.$btn-bgcolor;
+}
